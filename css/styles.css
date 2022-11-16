@@ -1,0 +1,146 @@
+
+body{
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    color:#212121;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:#212121
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 400;
+    font-weight: bold;
+    color:#2196F3;
+}
+.studio{
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 400;
+    color:#000000;
+    text-decoration: none;
+    font-weight: bold;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+}
+
+.navigation .navigation-links{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+a:focus {
+    color: #2196F3;
+}
+a:hover{
+    color:  #2196F3;
+}
+.contact{
+    color:#757575;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.title{
+    font-size:44px;
+    font-weight: 900;
+    color:#FFFFFF;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #2F303A;
+}
+.projects{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects-categories{
+    color:#757575;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
+.filters{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.filters:hover{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.filters:focus{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.place-address{
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2F303A;
+}
+.order-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.order-button:hover{
+    background: #2196F3;
+}
+.advantages{
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advantage-description{
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.about-us{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
