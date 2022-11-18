@@ -1,146 +1,195 @@
-
-body{
-    font-family: 'Roboto', serif;
-    font-size: 14px;
-    color:#212121;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-    color:#212121
+body {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  color: #212121;
+  text-decoration: none;
 }
 
-.logo{
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 400;
-    font-weight: bold;
-    color:#2196F3;
-}
-.studio{
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-weight: 400;
-    color:#000000;
-    text-decoration: none;
-    font-weight: bold;
-    line-height:1.19;
-    letter-spacing: 0.03em;
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196f3;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
-.navigation .navigation-links{
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.studio {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
+.navigation .navigation-links {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
 }
-a:focus {
-    color: #2196F3;
+.navigation-links:hover {
+  color: #2196f3;
 }
-a:hover{
-    color:  #2196F3;
+
+.links {
+  color: #212121;
+  text-decoration: none;
 }
-.contact{
-    color:#757575;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+
+.links:focus {
+  color: #2196f3;
 }
-.title{
-    font-size:44px;
-    font-weight: 900;
-    color:#FFFFFF;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    background-color: #2F303A;
+.links:hover {
+  color: #2196f3;
 }
-.projects{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+
+.contact {
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.projects-categories{
-    color:#757575;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
+
+.contact:hover {
+  color: #2196f3;
 }
-.filters{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
+
+.contact:focus {
+  color: #2196f3;
 }
-.filters:hover{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+
+.contact-footer {
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
-.filters:focus{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+
+.contact-footer:hover {
+  color: #2196f3;
 }
-.place-address{
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    background: #2F303A;
+
+.contact-footer:focus {
+  color: #2196f3;
 }
-.order-button{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+
+.title {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.order-button:hover{
-    background: #2196F3;
+
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
-.advantages{
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+
+.order-button:hover {
+  background: #2196f3;
 }
-.advantage-description{
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
+
+.projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
-.about-us{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+
+.projects-categories {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
 }
-.name{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
+
+.filters {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.position{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
+
+.filters:hover {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.filters:focus {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.place-address {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.place-address:hover {
+  color: #2196f3;
+}
+.place-address:focus {
+  color: #2196f3;
+}
+
+.advantages {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-description {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.about-us {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
