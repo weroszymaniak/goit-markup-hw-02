@@ -30,9 +30,6 @@ body {
     color:var(--logo-text-color-black);
 }
 
-.menu-nav{
-    list-style: none;
-}
 .menu-nav .menu-nav-link {
   font-weight: 500;
   line-height: 1.14;
@@ -52,7 +49,6 @@ body {
 .menu-nav-link:focus {
   color: var(--logo-text-color-blue);
 }
-
 
 .contact-header {
   color: var(--contact-color);
@@ -105,9 +101,6 @@ body {
     background-color: var(--background-color);
 }
 
-.projects-list{
-    list-style: none;
-}
 .project-header {
   font-weight: 700;
   font-size: 18px;
@@ -122,9 +115,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.filter-list{
-    list-style: none;
-}
 
 .filter-button {
   font-family:'Roboto', serif;
@@ -138,21 +128,11 @@ body {
 }
 
 .filter-button:hover {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--main-white-color);
   background-color: var(--logo-text-color-blue);
 }
 
 .filter-button:focus {
-font-size: 16px;
-font-weight: 500;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-white-color);
 background-color: var(--logo-text-color-blue);
 }
@@ -164,19 +144,18 @@ background-color: var(--logo-text-color-blue);
   font-style: normal;
 }
 
-
-footer{
+.footer{
     background-color: var(--background-color);
 }
 
-.advantages {
+.advantages-title {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.advantage-description {
+.advantages-description {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contact-color);
@@ -190,10 +169,6 @@ footer{
   letter-spacing: 0.03em;
 }
 
-.job-list{
-    list-style: none;
-}
-
 .team-header {
   font-weight: 700;
   font-size: 36px;
@@ -202,9 +177,6 @@ footer{
   letter-spacing: 0.03em;
 }
 
-.team-list{
-    list-style: none;
-}
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -219,4 +191,8 @@ footer{
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--contact-color);
+}
+
+.list{
+  list-style: none;
 }
